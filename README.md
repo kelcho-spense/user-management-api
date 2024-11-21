@@ -19,11 +19,7 @@ The User Management API is a Node.js application built with Express and TypeScri
 - pnpm (or npm/yarn)
 - Azure Cosmos DB account
 
-### CLone the API
-```bash
-git clone https://KenyaDataPlatformUserGroup@dev.azure.com/KenyaDataPlatformUserGroup/Azure%20Cosmos%20DB%20Samples/_git/user-management-api-ts
 
-```
 
 
 ### Installation
@@ -43,7 +39,6 @@ or
 ```sh
 npm install
 ```
-
 ### Configuration
 
 Create a `.env` file in the root directory and add the following environment variables:
