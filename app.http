@@ -1,0 +1,27 @@
+### GET /api/healthcheck
+GET http://localhost:8000/api/health
+###
+GET http://localhost:8000/api/users/d48c85fd-4cd3-4233-8e8e-ead595e456d1
+###
+GET http://localhost:8000/api/users
+###
+DELETE http://localhost:8000/api/users/e486307f-4b5b-475f-bc29-41d04b0e8c6a
+###
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "fullname": "Jane Doe",
+  "email": "jane@gmail.com",
+  "address": "Nyeri Kenya"
+}
+###
+PUT http://localhost:8000/api/users/e486307f-4b5b-475f-bc29-41d04b0e8c6a
+Content-Type: application/json
+
+{
+  "fullname": "Jane Doe",
+  "email":  "jane@gmail.com",
+  "address": "Nai Kenya"
+}
+
