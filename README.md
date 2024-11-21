@@ -119,6 +119,9 @@ The server will run on [http://localhost:8000](http://localhost:8000).
 - **DELETE** `/api/users/:id`
     - Deletes a user by ID.
 
+## Dockerize & Deploy to Azure Container Instances
+[Follow this Guide](./QuickStart-Dockerize-API.md)    
+
 ## Testing
 
 You can use tools like Postman or HTTPie to test the API endpoints. Alternatively, you can use the provided `app.http` file with VSCode extensions like REST Client.
